@@ -2,6 +2,8 @@
 @use "typography" as *;
 @use "sizes" as *;
 
+$active-theme: $light;
+
 // Contextual
 $color-text-default: $color-primary-700;
 $color-background-default: $color-primary-100;
@@ -121,3 +123,11 @@ $form-placeholder-color: $color-primary-300;
 $form-placeholder-font-family: $form-input-font-family;
 $form-placeholder-font-weight: $form-input-font-weight;
 $form-placeholder-font-size: $body-font-size;
+
+//logo
+$logo-fill-default: $color-primary-400;
+$logo-fill-header: $color-primary-300;
+$logo-fill-footer: $color-accent-400;
+$logo-size-default: 15rem;
+$logo-size-header: $logo-size-default;
+$logo-size-footer: $logo-size-default;

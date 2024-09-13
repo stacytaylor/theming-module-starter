@@ -25,7 +25,7 @@
       left: calc(($size-10 / -2) - 1px);
     }
     &::after {
-      right: ($size-10 / -2);
+      right: calc($size-10 / -2);
     }
   }
 }
